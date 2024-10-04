@@ -1,0 +1,175 @@
+
+.app-container{
+    width: 100vw;
+    height: 100vh;
+    background: #FFFFFF;
+    overflow: hidden;
+    border: 3px solid;
+}
+
+.banner-section{
+    background: linear-gradient(124.1deg, #842CFF 7.96%, #B247FF 79.94%);
+    width: 100%;
+    height: 32.6%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.banner-contents {
+    width: 56%;   
+    height: 28%;
+    margin-top: 17%;
+    margin-left: 40%;
+    background-color: black;
+    position: absolute;
+}
+/*
+.banner-contents p{
+    width: 100%;
+    height: 100%;
+    font: 'Pretendard'; 
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 150%;
+    text-align: right;
+    color: #FFFFFF;
+}
+    */
+
+.request{
+    width: 44%;
+    height: 13%;
+    margin-top: 60%;
+    margin-left: 52%;
+    border-radius: 19.18px;
+    border: #FFFFFF;
+    background: #FFFFFF;
+}
+
+.request-layout{
+    width: 133px;
+    height: 17px;
+    margin: auto;
+}
+
+.request p{
+    font-family: 'Pretendard';
+    line-height: 16.71px;
+    font-weight: 600;
+    font-size: 13px;
+    margin: 0;
+    text-align: left;
+    color: #842CFF;
+    
+}
+
+.bottom-section{
+    width: 100%;
+    height: 67.4%;
+    background-color: pink;
+}
+.map-section{
+    width: 109px;
+    height: 24px;
+    margin-top: 305px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'pretendard';
+    line-height: 23.87px;
+}
+
+.map-contents{
+    position: absolute;
+    width: 353px;
+    height: 146px;
+    top: 338px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+}
+
+.map-title{
+    width: 109px;
+    height: 24px;
+    top: 11px;
+    left: 28px;
+    font-family: 'pretendard';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23.87px;
+    color: black;
+    position: absolute;
+}
+
+.map-body{
+    width: 141px;
+    height: 34px;
+    top: 56px;
+    left: 28px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.71px;
+    font-family: 'pretendard';
+    color: #858585;
+    position: absolute;
+}
+
+.map{
+    width: 119px;
+    height: 119px;
+    margin-top: 14px;
+    margin-left: 209px;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+}
+.study{
+    width: 148px;
+    height: 24px;
+    top: 483px;
+    left: 20px;
+    font-family: 'pretendard';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23.87px;
+    position: absolute;
+}
+/* 부모: app-container*/
+.study-content{
+    width: 156px;
+    height: 171px;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+    position: absolute;
+}
+
+/* 부모: app-container*/
+.menu{
+    width: 393px;
+    height: 94px;
+    top: 758px;
+    border-top: 1px solid #CACACA;
+    position: absolute;
+}
+
+.icon{
+    height: 49px;
+    position: absolute;
+}
+
+
+.icon-text{
+    height: 14px;
+    top: 35px;
+    font-family: 'pretendard';
+    font-size: 12px;
+    line-height: 14.32px;
+    position: absolute;
+}
+
+/* Group 1000002352 */
+
+
+
