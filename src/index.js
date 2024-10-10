@@ -5,8 +5,8 @@ import ReactDOM from 'react-dom/client';
 //import TDL from './ToDoList';
 //import CoinTracker from './CoinTracker';
 //import Movie from './Movie';
-//import Homfo_task1 from './Homfo_task1';
-import Homfo_task2 from './Homfo_task2';
+import Homfo_task1 from './Homfo_task1';
+//import Homfo_task2 from './Homfo_task2';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,8 +17,8 @@ root.render(
     //<CoinTracker />
     //<Movie />
     //<Home />
-    //<Homfo_task1 />
-    <Homfo_task2 />
+    <Homfo_task1 />
+    //<Homfo_task2 />
   //</React.StrictMode>
 );
 
