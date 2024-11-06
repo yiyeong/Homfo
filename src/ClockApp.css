@@ -1,0 +1,141 @@
+.app{
+        width: 50%;
+        height: 38vh;
+        flex-direction: column;
+        display: flex;
+        border: 1px solid  black ;
+        background-color: antiquewhite;
+    }
+
+.app h1{
+    height: 25%;
+    width: 100%;
+    font-size: 4.5vh;
+    font-weight: 550;
+    display: flex;
+    margin-top: 3%;
+    justify-content: center;
+    align-items: last baseline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 0.3cm solid black;
+}
+
+.clock-form{
+    height: 70%;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 0.2cm solid black;
+}
+
+.form-field{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.form-field label{
+    width: 50%;
+    white-space: nowrap;
+    font-size: 500%;
+    padding-left: 5%;
+}
+
+.form-field input{
+    height: 80%;
+    width: 34%;
+    font-size: 400%;
+    margin-left: 5%;
+}
+
+.clock-form button{
+    height: 18%;
+    width: 30%;
+    font-size: 4em;
+    margin-bottom: 1%;
+}
+
+.clock-display {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 15%;
+    background-color: antiquewhite;
+}
+
+.clock-display h1{
+    width: 100%;
+    height: 4vh;
+    font-size: 6em;
+}
+
+.clock-box {
+    width: 30%;
+    height: 50%;
+    margin-left: 3%;
+    margin-bottom: 2%;
+    display: felx;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black; 
+    background-color: whitesmoke;
+}
+
+.clock-box h3{
+    width: 100%;
+    font-size: 4em;
+    margin-bottom: 0%;
+    margin-top: 3%;
+}
+
+.clock-box p{
+    width: 70%;
+    font-size: 4em;
+    font-weight: 800;
+    margin: 1% auto 0 auto;
+    border: 0.3cm solid black;
+}
+
+.clock-box label{
+    font-size: 0.6em;
+    margin-right: 5%;
+}
+
+.button-group{
+    height: 20%;
+    margin-top: 3.5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+}
+
+.button-group button{
+    font-size: 3rem; 
+    margin-left: 0.5%;
+}
+
+.adjust-buttons{
+    width: 130%;
+    margin-top: 10%;
+    background-color: antiquewhite;
+}
+.adjust-buttons h1{
+    font-size: 5em;
+}
+
+.adjust-buttons button{
+    font-size: 3rem;
+    margin-left: 5%;
+}
